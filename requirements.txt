@@ -14,4 +14,5 @@ rotary-embedding-torch==0.4.0
 transformers==4.29.2
 omegaconf==2.3
 pysrt
+fastapi==0.112.2
 librosa==0.9.1

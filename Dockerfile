@@ -90,8 +90,9 @@ ADD requirements.txt requirements.txt
 RUN python3 -m pip install -r ./requirements.txt
 
 # The app
+USER root
 ADD --chown=user:user . $HOME/ai-voice-cloning
 
 ENV IN_DOCKER=true
 
-CMD ["./start.sh"]
+CMD ["bash"]
