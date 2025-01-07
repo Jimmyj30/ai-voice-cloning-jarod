@@ -16,3 +16,5 @@ omegaconf==2.3
 pysrt
 fastapi==0.112.2
 librosa==0.9.1
+fastapi==0.112.1
+starlette==0.38.2
